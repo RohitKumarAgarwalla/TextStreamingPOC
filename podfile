@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'AudioRecording_36155' do 
+	pod 'Starscream'
+	pod 'SocketRocket'
+end

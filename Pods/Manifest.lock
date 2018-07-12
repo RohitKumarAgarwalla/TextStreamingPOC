@@ -1,0 +1,20 @@
+PODS:
+  - SocketRocket (0.5.1)
+  - Starscream (3.0.5)
+
+DEPENDENCIES:
+  - SocketRocket
+  - Starscream
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SocketRocket
+    - Starscream
+
+SPEC CHECKSUMS:
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
+
+PODFILE CHECKSUM: 3f63aacc593dd54ee9b569c130386c66f8f01ad3
+
+COCOAPODS: 1.5.3

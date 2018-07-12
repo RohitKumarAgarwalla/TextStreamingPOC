@@ -1,0 +1,6 @@
+framework module Pods_AudioRecording_36155 {
+  umbrella header "Pods-AudioRecording_36155-umbrella.h"
+
+  export *
+  module * { export * }
+}

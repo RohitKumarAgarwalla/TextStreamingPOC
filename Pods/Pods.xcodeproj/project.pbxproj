@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061E4018BBAFCFA1D5A482D2244EB74F /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA59EA4EB971B635EA9C87D7937ACB7 /* SSLSecurity.swift */; };
+		1206D1B2F0DEEA724C6628F41BD24AA5 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 43472D3AA4F8FCDA71F5E8AE33461244 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ADBBB1C2A81D830F9F758CD8C68ED27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7491339287D7D3438E6159922765F /* Foundation.framework */; };
+		28985AF58E32301CA631DD08B342923D /* Pods-AudioRecording_36155-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C66A9907FA1A2680F8160B71DEFBFB /* Pods-AudioRecording_36155-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E254E6409601FA267A0C240C26AF87D /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1151858D73C1821E0A24F594F5DBA353 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34E1C8BC9A9318899B3ED6E6F3E5D9A1 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EAD49A892755E872DECF9B4C23A276 /* SRWebSocket.m */; };
+		434C5959E910214CC92CF68A6F4E7267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7491339287D7D3438E6159922765F /* Foundation.framework */; };
+		62E678A532FBF4BC34F9079C5479DA02 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88057B0D45F7DF1D68DF06EBFBCF0ADA /* SocketRocket-dummy.m */; };
+		7B2FEA0BEFA14EDE8A5D8A03AD02C28A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7491339287D7D3438E6159922765F /* Foundation.framework */; };
+		7C2973B72F11AC4131B5B470AAE80030 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA33308FF5FDB30BB1276B7FC275CBD3 /* CFNetwork.framework */; };
+		8422F34EBFD9EE6636CCFEFD54A93E5D /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4BC04AC8C4AF58A69DA700B1E11D24 /* Compression.swift */; };
+		84FDC733132938BEE3BAAA84C64FAA20 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 235B226644BD5255AA57BC27DE3BE1DF /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B66C860A77C70C682127E2FCCE7ADFCE /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC83D3E135B9B5994610AA1C0D3E4353 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C27A6C833005ED671FDFAB52BEA0590D /* Pods-AudioRecording_36155-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5C1BD9BADF195C5E6767531507C90 /* Pods-AudioRecording_36155-dummy.m */; };
+		C917735ED38F5219C02E2896EFDB948C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39770DC6DBE27972833FB0C495A7D6E9 /* Security.framework */; };
+		F1B3D92B8D70D7511D9DD27170E32820 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6287434461C210316E6B3FA69CB007 /* Starscream-dummy.m */; };
+		FD91BEC4131799E27028DCB2AA1C4FD6 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B861DEFE967208CA858856D44E23DC9 /* WebSocket.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2564325A5659D150523E695C08D55463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4D6DB179C3828F761EB4BC19B167212;
+			remoteInfo = SocketRocket;
+		};
+		88C0F04166C0DF401C76B3CC8D114B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D29342040539E7F5DA4AA4B80B17DD0;
+			remoteInfo = Starscream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B5C1BD9BADF195C5E6767531507C90 /* Pods-AudioRecording_36155-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AudioRecording_36155-dummy.m"; sourceTree = "<group>"; };
+		0B8595BB17BA84CD3291FB32493E924B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1151858D73C1821E0A24F594F5DBA353 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		13C66A9907FA1A2680F8160B71DEFBFB /* Pods-AudioRecording_36155-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AudioRecording_36155-umbrella.h"; sourceTree = "<group>"; };
+		1DE12EB10BF880B9E84772074EB0ABFF /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		20E93A6BD5E233ED7FB4B6C47B633A26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235B226644BD5255AA57BC27DE3BE1DF /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		23E0166CC487FD51167E14DD10252915 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		39770DC6DBE27972833FB0C495A7D6E9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		43472D3AA4F8FCDA71F5E8AE33461244 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		51934A514375CBF6DB1D8D6AB9D8CCC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D26D351D5F9182A617D7257F1E8C6F /* Pods-AudioRecording_36155-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioRecording_36155-resources.sh"; sourceTree = "<group>"; };
+		53ED717B85D102A651D2ECBB40C357C9 /* Pods-AudioRecording_36155.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AudioRecording_36155.modulemap"; sourceTree = "<group>"; };
+		5E183ECD0F71B4C9E3845AA70AB239E7 /* Pods-AudioRecording_36155-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AudioRecording_36155-frameworks.sh"; sourceTree = "<group>"; };
+		6AA59EA4EB971B635EA9C87D7937ACB7 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/SSLSecurity.swift; sourceTree = "<group>"; };
+		6B861DEFE967208CA858856D44E23DC9 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/WebSocket.swift; sourceTree = "<group>"; };
+		6F7452DB6B359B6F203F00A87F249298 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		72F7491339287D7D3438E6159922765F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		801298C5A7E33373430FDF2D8A2518FD /* Pods-AudioRecording_36155.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioRecording_36155.debug.xcconfig"; sourceTree = "<group>"; };
+		832A38C34AD8CB2D0BC2A63A7668AD37 /* Pods_AudioRecording_36155.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AudioRecording_36155.framework; path = "Pods-AudioRecording_36155.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88057B0D45F7DF1D68DF06EBFBCF0ADA /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B503FB7976309E6F7882188BA2E90EB /* Pods-AudioRecording_36155-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AudioRecording_36155-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA6849BF576A0D978D953BE3D34EC4AA /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		BC83D3E135B9B5994610AA1C0D3E4353 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
+		C1EAD49A892755E872DECF9B4C23A276 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		C30CD14E25BD8F2ED5D08FCD7E38D6B3 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7372E3392B7C356DA45C51A150474DC /* Pods-AudioRecording_36155-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AudioRecording_36155-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA33308FF5FDB30BB1276B7FC275CBD3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		CD6287434461C210316E6B3FA69CB007 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		DF4BC04AC8C4AF58A69DA700B1E11D24 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression.swift; sourceTree = "<group>"; };
+		DF5B64FA3395415C61C72EDEA0410210 /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		E066388A78E17FE7A724612221130117 /* Pods-AudioRecording_36155.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AudioRecording_36155.release.xcconfig"; sourceTree = "<group>"; };
+		E99F9ECAE68FFE7BE8F890DA80120C00 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		EA8D684EB9CE2739375DE69B1BB9A67B /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0129C74E350CB24195B45ED14C16C07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2973B72F11AC4131B5B470AAE80030 /* CFNetwork.framework in Frameworks */,
+				1ADBBB1C2A81D830F9F758CD8C68ED27 /* Foundation.framework in Frameworks */,
+				C917735ED38F5219C02E2896EFDB948C /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2821DFC903CAA1BC1AE4B2D49D24249E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434C5959E910214CC92CF68A6F4E7267 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3C166E3113DE86BA3A47CD4433D30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2FEA0BEFA14EDE8A5D8A03AD02C28A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		120B94B4F2ED54F498FB6942F6E06CC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				721056C18C34CFEBD298D96EC8030F9A /* SocketRocket */,
+				F0212C2B0D89EF8400500109C107B22C /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC341550D48545A0334F9085B7D07071 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25D02559559F14C000099A8AF64A97EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20E93A6BD5E233ED7FB4B6C47B633A26 /* Info.plist */,
+				E99F9ECAE68FFE7BE8F890DA80120C00 /* SocketRocket.modulemap */,
+				6F7452DB6B359B6F203F00A87F249298 /* SocketRocket.xcconfig */,
+				88057B0D45F7DF1D68DF06EBFBCF0ADA /* SocketRocket-dummy.m */,
+				1DE12EB10BF880B9E84772074EB0ABFF /* SocketRocket-prefix.pch */,
+				BC83D3E135B9B5994610AA1C0D3E4353 /* SocketRocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		683E5766FD6F1C214348404D932E8BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832A38C34AD8CB2D0BC2A63A7668AD37 /* Pods_AudioRecording_36155.framework */,
+				C30CD14E25BD8F2ED5D08FCD7E38D6B3 /* SocketRocket.framework */,
+				EA8D684EB9CE2739375DE69B1BB9A67B /* Starscream.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		721056C18C34CFEBD298D96EC8030F9A /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				43472D3AA4F8FCDA71F5E8AE33461244 /* SocketRocket.h */,
+				1151858D73C1821E0A24F594F5DBA353 /* SRWebSocket.h */,
+				C1EAD49A892755E872DECF9B4C23A276 /* SRWebSocket.m */,
+				25D02559559F14C000099A8AF64A97EC /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				120B94B4F2ED54F498FB6942F6E06CC9 /* Pods */,
+				683E5766FD6F1C214348404D932E8BEE /* Products */,
+				9A28ACA2ED35BCC49A654033613084BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8756AF2D5F7DCBF9E0183EF9F5D19B99 /* Pods-AudioRecording_36155 */ = {
+			isa = PBXGroup;
+			children = (
+				0B8595BB17BA84CD3291FB32493E924B /* Info.plist */,
+				53ED717B85D102A651D2ECBB40C357C9 /* Pods-AudioRecording_36155.modulemap */,
+				C7372E3392B7C356DA45C51A150474DC /* Pods-AudioRecording_36155-acknowledgements.markdown */,
+				9B503FB7976309E6F7882188BA2E90EB /* Pods-AudioRecording_36155-acknowledgements.plist */,
+				07B5C1BD9BADF195C5E6767531507C90 /* Pods-AudioRecording_36155-dummy.m */,
+				5E183ECD0F71B4C9E3845AA70AB239E7 /* Pods-AudioRecording_36155-frameworks.sh */,
+				53D26D351D5F9182A617D7257F1E8C6F /* Pods-AudioRecording_36155-resources.sh */,
+				13C66A9907FA1A2680F8160B71DEFBFB /* Pods-AudioRecording_36155-umbrella.h */,
+				801298C5A7E33373430FDF2D8A2518FD /* Pods-AudioRecording_36155.debug.xcconfig */,
+				E066388A78E17FE7A724612221130117 /* Pods-AudioRecording_36155.release.xcconfig */,
+			);
+			name = "Pods-AudioRecording_36155";
+			path = "Target Support Files/Pods-AudioRecording_36155";
+			sourceTree = "<group>";
+		};
+		9A28ACA2ED35BCC49A654033613084BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8756AF2D5F7DCBF9E0183EF9F5D19B99 /* Pods-AudioRecording_36155 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EC341550D48545A0334F9085B7D07071 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA33308FF5FDB30BB1276B7FC275CBD3 /* CFNetwork.framework */,
+				72F7491339287D7D3438E6159922765F /* Foundation.framework */,
+				39770DC6DBE27972833FB0C495A7D6E9 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0212C2B0D89EF8400500109C107B22C /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				DF4BC04AC8C4AF58A69DA700B1E11D24 /* Compression.swift */,
+				6AA59EA4EB971B635EA9C87D7937ACB7 /* SSLSecurity.swift */,
+				6B861DEFE967208CA858856D44E23DC9 /* WebSocket.swift */,
+				FDFB12DD60B0B885658AD7BA31CF4426 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		FDFB12DD60B0B885658AD7BA31CF4426 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51934A514375CBF6DB1D8D6AB9D8CCC3 /* Info.plist */,
+				AA6849BF576A0D978D953BE3D34EC4AA /* Starscream.modulemap */,
+				DF5B64FA3395415C61C72EDEA0410210 /* Starscream.xcconfig */,
+				CD6287434461C210316E6B3FA69CB007 /* Starscream-dummy.m */,
+				23E0166CC487FD51167E14DD10252915 /* Starscream-prefix.pch */,
+				235B226644BD5255AA57BC27DE3BE1DF /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22C31E5CC568A28C79C1260A1C8F4E07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FDC733132938BEE3BAAA84C64FAA20 /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C4A020D06D8831A2FCA72298FD4B7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28985AF58E32301CA631DD08B342923D /* Pods-AudioRecording_36155-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7740B8E2B1E0A71944748BB70C88F77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C860A77C70C682127E2FCCE7ADFCE /* SocketRocket-umbrella.h in Headers */,
+				1206D1B2F0DEEA724C6628F41BD24AA5 /* SocketRocket.h in Headers */,
+				2E254E6409601FA267A0C240C26AF87D /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D29342040539E7F5DA4AA4B80B17DD0 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869A4C34BE76CF5675DC47F39FF16D95 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				794C2F078199154649CB086B53A93925 /* Sources */,
+				3B3C166E3113DE86BA3A47CD4433D30B /* Frameworks */,
+				22C31E5CC568A28C79C1260A1C8F4E07 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = EA8D684EB9CE2739375DE69B1BB9A67B /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4D6DB179C3828F761EB4BC19B167212 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDEBDE7A8D759700F595F43C21A06A3 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				8CFB22598E2C0A2635DD326E5981E5AE /* Sources */,
+				0129C74E350CB24195B45ED14C16C07A /* Frameworks */,
+				E7740B8E2B1E0A71944748BB70C88F77 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = C30CD14E25BD8F2ED5D08FCD7E38D6B3 /* SocketRocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFE02340321952C49E2D78A8AF886E4D /* Pods-AudioRecording_36155 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02141D95BA45E64D1B62C8D7178BA17 /* Build configuration list for PBXNativeTarget "Pods-AudioRecording_36155" */;
+			buildPhases = (
+				7B3652F05387C63A1B41C67584077A93 /* Sources */,
+				2821DFC903CAA1BC1AE4B2D49D24249E /* Frameworks */,
+				85C4A020D06D8831A2FCA72298FD4B7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3BFF11115031D606AC6F8D820F14DE5 /* PBXTargetDependency */,
+				E6347B486825BDF34BC15BBB10FF48D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-AudioRecording_36155";
+			productName = "Pods-AudioRecording_36155";
+			productReference = 832A38C34AD8CB2D0BC2A63A7668AD37 /* Pods_AudioRecording_36155.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 683E5766FD6F1C214348404D932E8BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE02340321952C49E2D78A8AF886E4D /* Pods-AudioRecording_36155 */,
+				C4D6DB179C3828F761EB4BC19B167212 /* SocketRocket */,
+				6D29342040539E7F5DA4AA4B80B17DD0 /* Starscream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		794C2F078199154649CB086B53A93925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8422F34EBFD9EE6636CCFEFD54A93E5D /* Compression.swift in Sources */,
+				061E4018BBAFCFA1D5A482D2244EB74F /* SSLSecurity.swift in Sources */,
+				F1B3D92B8D70D7511D9DD27170E32820 /* Starscream-dummy.m in Sources */,
+				FD91BEC4131799E27028DCB2AA1C4FD6 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3652F05387C63A1B41C67584077A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A6C833005ED671FDFAB52BEA0590D /* Pods-AudioRecording_36155-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFB22598E2C0A2635DD326E5981E5AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E678A532FBF4BC34F9079C5479DA02 /* SocketRocket-dummy.m in Sources */,
+				34E1C8BC9A9318899B3ED6E6F3E5D9A1 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3BFF11115031D606AC6F8D820F14DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = C4D6DB179C3828F761EB4BC19B167212 /* SocketRocket */;
+			targetProxy = 2564325A5659D150523E695C08D55463 /* PBXContainerItemProxy */;
+		};
+		E6347B486825BDF34BC15BBB10FF48D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 6D29342040539E7F5DA4AA4B80B17DD0 /* Starscream */;
+			targetProxy = 88C0F04166C0DF401C76B3CC8D114B51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F054AA2E4E35A9F864A0E8766877194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7452DB6B359B6F203F00A87F249298 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22B3E10257F401A0F004819D159BE565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E066388A78E17FE7A724612221130117 /* Pods-AudioRecording_36155.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioRecording_36155/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioRecording_36155/Pods-AudioRecording_36155.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BA1E8F15818E9E10EC63699C0118B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801298C5A7E33373430FDF2D8A2518FD /* Pods-AudioRecording_36155.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AudioRecording_36155/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AudioRecording_36155/Pods-AudioRecording_36155.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		62D6BCD48CFB0416D7B8AA9B2AFDA349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5B64FA3395415C61C72EDEA0410210 /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7367115C3C85AB34AA201F775DB090DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7452DB6B359B6F203F00A87F249298 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85109F4490BE523561720D9CB7D4DF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5B64FA3395415C61C72EDEA0410210 /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDEBDE7A8D759700F595F43C21A06A3 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F054AA2E4E35A9F864A0E8766877194 /* Debug */,
+				7367115C3C85AB34AA201F775DB090DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869A4C34BE76CF5675DC47F39FF16D95 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D6BCD48CFB0416D7B8AA9B2AFDA349 /* Debug */,
+				85109F4490BE523561720D9CB7D4DF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02141D95BA45E64D1B62C8D7178BA17 /* Build configuration list for PBXNativeTarget "Pods-AudioRecording_36155" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA1E8F15818E9E10EC63699C0118B6A /* Debug */,
+				22B3E10257F401A0F004819D159BE565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
