@@ -46,10 +46,10 @@ Byte volumeForPacket(const UInt8* packet, int packetSize) {
 	for (int x = 2; x < packetSize; x++) {
 		UInt8 data = packet[x];
 		
-		for (int x = 0; x < 2; x++) {
+		for (int y = 0; y < 2; y++) {
 			UInt8 nibble = 0;
 			
-			if (x == 0)
+			if (y == 0)
 				nibble = data & 0x0F;
 			else
 				nibble = data >> 4;
@@ -154,8 +154,7 @@ void AudioInputCallback(void * inUserData,
 	} else {
 		NSLog(@"Conversion error %@", dataConversionError);
 	}
-//	NSData *tempData = [NSData dataWithBytes:inBuffer->mAudioData length:inBuffer->mAudioDataByteSize];
-//	[temp feedSamplesToEngine:inBuffer->mAudioDataByteSize audioData:inBuffer->mAudioData];
+    [temp feedSamplesToEngine:inBuffer->mAudioDataByteSize audioData:inBuffer->mAudioData];
 	
 }
 
@@ -229,9 +228,7 @@ void AudioOutputCallback(void * inUserData,
 	format->mBytesPerPacket = 2;
 	format->mBitsPerChannel = 16;
 	format->mReserved = 0;
-	format->mFormatFlags = kLinearPCMFormatFlagIsBigEndian     |
-	kLinearPCMFormatFlagIsSignedInteger |
-	kLinearPCMFormatFlagIsPacked;
+	format->mFormatFlags = kLinearPCMFormatFlagIsSignedInteger | kLinearPCMFormatFlagIsPacked;
 }
 
 
